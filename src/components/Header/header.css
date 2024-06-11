@@ -1,0 +1,17 @@
+header {
+  background-color: #ffff;
+  box-shadow: 2px 2px 5px rgb(240, 240, 240);
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+header >ul{
+    display: flex;
+    gap: 30px;
+    li{
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

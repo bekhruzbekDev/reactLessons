@@ -1,7 +1,9 @@
+import { Home } from "./pages/HomePage/Home";
+import "./style/index.css";
 export function App() {
-  return <>
-    <h1>Hello word</h1>
-  </>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
-
-``
