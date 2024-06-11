@@ -18,3 +18,4 @@ __ dars davomida shular bilan ishlashni urganishingiz mumkin___
 * NavLik
 * usNavigate
 * Link
+  
