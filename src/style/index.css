@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 body{
     background-color: #f1f1f1;
 }
@@ -15,4 +19,9 @@ li,ol,ul{
     background-color: #fff;
     margin: 0 auto;
     padding: 10px;
+}
+.active{
+    color: red;
+    /* list-style: none; */
+    text-decoration: none;
 }
