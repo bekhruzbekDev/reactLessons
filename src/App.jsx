@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { Home } from "./pages/HomePage/Home";
-import { Contact} from "./pages/Contacts/Contact";
+import { Contact } from "./pages/Contacts/Contact";
 import { About } from "./pages/About/About";
+import { NotFound } from "./pages/404";
 import "./style/index.css";
 export function App() {
   return (
@@ -13,6 +14,7 @@ export function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );

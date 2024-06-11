@@ -1,20 +1,24 @@
 import "./header.css";
 //svg import
 import Logo from "../../assets/react.svg";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 export const Header = () => {
+  const navigate = useNavigate();
   return (
     <header>
-      <Logo />
+      <span onClick={() => navigate("/")}>
+        <Logo />
+      </span>
+
       <ul>
-      <NavLink to="/">
+        <NavLink to="/">
           <li>Home</li>
         </NavLink>
         <NavLink to="/about">
           <li>About</li>
         </NavLink>
         <NavLink to="/contact">
-        <li>Contact</li>
+          <li>Contact</li>
         </NavLink>
       </ul>
     </header>
