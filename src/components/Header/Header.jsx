@@ -1,8 +1,10 @@
 import "./header.css";
+//svg import
+import Logo from "../../assets/react.svg"
 export const Header = () => {
   return (
     <header>
-      <h1>Header</h1>
+      <Logo/>
       <ul>
         <li>About</li>
         <li>Contact</li>
