@@ -16,7 +16,12 @@ __Bu darsda fayllar bilan ishlash componets va pages qismlari kursatilgan likin 
 #### React Router Dom
 _Bu darda  [React Router Dom](https://reactrouter.com/en/main). bilan ishlagan holda boshqa sahivaga "page" o'tganda sayt yangilanib ketmasligi oldi oligan_
 
+_lesson-3 da svgr plageni o'rnatilgan va bu haqida to'liq malimot lesson-3 README faylida ko'rsatilgan_
+
+_Lesson-3.2da esa link va useNavigate va 404 page qushilgan :)_
+
 __dars davomida  ishlashni urganishingiz mumkin bulganlar__
+
 * NavLik
 * usNavigate
 * Link
