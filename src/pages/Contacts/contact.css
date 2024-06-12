@@ -1,0 +1,62 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  label {
+    margin-bottom: 10px;
+  }
+}
+h5 {
+  text-align: center;
+  margin-bottom: 4px;
+}
+input {
+  height: 30px;
+  /* width: 80%; */
+  border: none;
+  outline: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+textarea {
+  min-height: 100px !important;
+  width: 100% !important;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 10px;
+}
+button {
+  border: none;
+  color: white;
+  background: grey;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  &:hover {
+    /* transform: rotateY(-30deg); */
+    box-shadow: 1px 1px 11px 12px rgba(154, 155, 154, 0.375);
+      transition: all 1s linear;
+    /* position: relative; */
+    /* left: 100px; */
+  }
+}
+span {
+  color: red;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.errorInput {
+  border-bottom: 1px solid red;
+}
+.errorTextArea {
+  border: 1px solid red;
+}
